@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:orientation="vertical"
+		android:paddingLeft="48dp"
+		android:paddingRight="48dp">
+
+		<TextView
+			android:id="@+id/layout_options_caption"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:text="@string/layout_options_caption_text"
+			android:textColor="@color/colorPrimary"
+			android:textSize="20sp"/>
+
+
+		<TextView
+			android:id="@+id/layout_options_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/layout_options_title_text"
+			android:textColor="@color/colorPrimary"
+			android:textSize="24sp"
+			android:textStyle="bold"/>
+
+		<EditText
+			android:id="@+id/layout_options_question"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="32dp"
+			android:hint="@string/layout_options_question_text"
+			android:textColorHint="@color/magnesium"
+			android:textSize="20sp"/>
+
+		<ImageButton
+			android:id="@+id/layout_options_button_add"
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:layout_marginTop="16dp"
+			android:background="@drawable/selector_btn_gray"
+			android:contentDescription="@string/layout_options_button_description"
+			android:src="@android:drawable/ic_input_add"
+			android:textColor="@android:color/white"
+			android:tint="@color/magnesium"/>
+
+		<Button
+			android:id="@+id/layout_options_button_decide"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/layout_options_button_decide_text"/>
+
+	</LinearLayout>
+
+</LinearLayout>

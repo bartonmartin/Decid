@@ -1,0 +1,87 @@
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<!-- group with single selected item so only one item is highlighted in the nav menu -->
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/drawer_item_1"
+			android:icon="@drawable/ic_drawer_search"
+			android:title="@string/ab_title_search"/>
+		<item
+			android:id="@+id/drawer_item_2"
+			android:icon="@drawable/ic_drawer_my_profile"
+			android:title="@string/ab_title_my_profile"
+			app:actionLayout="@layout/custom_item"
+			app:showAsAction="always"/>
+	</group>
+</menu>
+	<!--<?xml version="1.0" encoding="utf-8"?>-->
+	<!--<menu-->
+	<!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+	<!--&lt;!&ndash; group with single selected item so only one item is highlighted in the nav menu &ndash;&gt;-->
+	<!--<group-->
+	<!--android:id="@+id/drawer_category_members"-->
+	<!--android:checkableBehavior="single">-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_nearby"-->
+	<!--android:icon="@drawable/ic_drawer_nearby"-->
+	<!--android:title="@string/ab_title_nearby"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_members_online"-->
+	<!--android:icon="@drawable/ic_drawer_online"-->
+	<!--android:title="@string/ab_title_members_online"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_secret_admirer"-->
+	<!--android:icon="@drawable/ic_drawer_admirer"-->
+	<!--android:title="@string/ab_title_secret_admirer"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_my_matches"-->
+	<!--android:icon="@drawable/ic_drawer_matches"-->
+	<!--android:title="@string/ab_title_matches"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_search"-->
+	<!--android:icon="@drawable/ic_drawer_search"-->
+	<!--android:title="@string/ab_title_search"/>-->
+	<!--</group>-->
+
+	<!--<group-->
+	<!--android:id="@+id/drawer_category_activity"-->
+	<!--android:checkableBehavior="single">-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_activity"-->
+	<!--android:icon="@drawable/ic_drawer_events"-->
+	<!--android:title="@string/ab_title_events"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_messages"-->
+	<!--android:icon="@drawable/ic_drawer_messages"-->
+	<!--android:title="@string/ab_title_messages"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_chats"-->
+	<!--android:icon="@drawable/ic_drawer_chat"-->
+	<!--android:title="@string/ab_title_chat_list"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_favorites"-->
+	<!--android:icon="@drawable/ic_drawer_favorites"-->
+	<!--android:title="@string/ab_title_favorites"/>-->
+	<!--</group>-->
+
+	<!--<group-->
+	<!--android:id="@+id/drawer_category_profile"-->
+	<!--android:checkableBehavior="single">-->
+
+	<!--<item-->
+	<!--android:id="@+id/drawer_my_profile"-->
+	<!--android:icon="@drawable/ic_drawer_my_profile"-->
+	<!--android:title="@string/ab_title_my_profile"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_upload_photos"-->
+	<!--android:icon="@drawable/ic_drawer_add_photo"-->
+	<!--android:title="@string/ab_title_upload_photos"/>-->
+	<!--<item-->
+	<!--android:id="@+id/drawer_settings"-->
+	<!--android:icon="@drawable/ic_drawer_setting"-->
+	<!--android:title="@string/ab_title_settings"/>-->
+
+	<!--</group>-->
+	<!--</menu>-->

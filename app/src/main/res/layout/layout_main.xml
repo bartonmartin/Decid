@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:paddingLeft="48dp"
+		android:paddingRight="48dp">
+
+		<TextView
+			android:id="@+id/layout_main_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/layout_main_title_text"
+			android:textColor="@color/colorPrimary"
+			android:textSize="64sp"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:id="@+id/layout_main_caption"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:text="@string/layout_main_caption_text"/>
+
+		<Button
+			android:id="@+id/layout_main_button"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="64dp"
+			android:background="@drawable/selector_btn"
+			android:text="@string/layout_main_caption_button_text"
+			android:textColor="@android:color/white"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/layout_main_history"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:padding="16dp"
+		android:text="Show me previous decisions"
+		android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

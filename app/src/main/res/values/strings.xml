@@ -1,0 +1,66 @@
+<resources>
+	<string name="app_name">Decid</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="layout_main_title_text">Decid</string>
+	<string name="layout_main_caption_text">It decides for you</string>
+	<string name="layout_main_caption_button_text">Decide for me</string>
+	<string name="layout_question_caption_text">Okay.</string>
+	<string name="layout_question_title_text">What is your question ?</string>
+	<string name="layout_question_question_text">Type it here</string>
+	<string name="layout_question_caption_button_text">Decide for me please</string>
+	<string name="layout_options_caption_text">We are almost there.</string>
+	<string name="layout_options_title_text">What are possible answers ?</string>
+	<string name="layout_options_button_description">Add option</string>
+	<string name="layout_options_question_text">Type possible answer here</string>
+	<string name="layout_options_button_decide_text">Decide already, oh my god!</string>
+
+
+	<!-- AB -->
+	<string name="ab_title_album_picker">Choose Album</string>
+	<string name="ab_title_blocked_list">Blocked</string>
+	<string name="ab_title_chat_conversation">Chat</string>
+	<string name="ab_title_chat_conversation_history">Chat history</string>
+	<string name="ab_title_chat_invite">Chat Invite</string>
+	<string name="ab_title_chat_not_found">Chat Not Found</string>
+	<string name="ab_title_chat_list">Chats</string>
+	<string name="ab_title_contact">Contact Us</string>
+	<string name="ab_title_edit_photo">Edit Photo</string>
+	<string name="ab_title_events">Activity</string>
+	<string name="ab_title_favorites">Favorites</string>
+	<string name="ab_title_login">Login</string>
+	<string name="ab_title_matches">My Matches</string>
+	<string name="ab_title_members_online">Members Online</string>
+	<string name="ab_title_message_reply">Reply</string>
+	<string name="ab_title_message_compose">New Message</string>
+	<string name="ab_title_message_detail">Message</string>
+	<string name="ab_title_tease_list">Smiles</string>
+	<string name="ab_title_messages">Messages</string>
+	<string name="ab_title_smile">Smile</string>
+	<string name="ab_title_card">Card</string>
+	<string name="ab_title_my_photos">My Photos</string>
+	<string name="ab_title_my_profile">My Profile</string>
+	<string name="ab_title_nearby">Nearby</string>
+	<string name="ab_title_photo_picker">Choose Photo</string>
+	<string name="ab_title_fullscreen_photo">Fullscreen photo</string>
+	<string name="ab_title_privacy_info">Privacy Info</string>
+	<string name="ab_title_profile">Profile</string>
+	<string name="ab_title_reset_password">Reset Password</string>
+	<string name="ab_title_safety_info">Safety Info</string>
+	<string name="ab_title_search">Search</string>
+	<string name="ab_title_search_results">Search Results</string>
+	<string name="ab_title_secret_admirer">Secret Admirer</string>
+	<string name="ab_title_settings">Settings</string>
+	<string name="ab_title_settings_notifications">Notifications</string>
+	<string name="ab_title_settings_remove_profile">Remove Profile</string>
+	<string name="ab_title_sign_up">Sign Up</string>
+	<string name="ab_title_stats">Stats</string>
+	<string name="ab_title_subscription">Subscribe now</string>
+	<string name="ab_title_terms_conditions">Terms and Conditions</string>
+	<string name="ab_title_settings_update_subscription">Cancel Subscription</string>
+	<string name="ab_title_settings_update_subscription_reactivate">Reactivate Subscription</string>
+	<string name="ab_title_upload_photos">Upload Photos</string>
+	<string name="open">open</string>
+	<string name="close">close</string>
+
+</resources>
